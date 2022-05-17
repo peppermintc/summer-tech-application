@@ -2,8 +2,9 @@ import "@karrotframe/tabs/index.css";
 
 import { Tabs } from "@karrotframe/tabs";
 import { useState } from "react";
-import ProjectInfo from "./pages/ProjectInfo";
+import ProjectInfoPage from "./pages/ProjectInfoPage";
 import styled from "styled-components";
+import AboutMePage from "./pages/AboutMePage";
 
 const Container = styled.div`
   width: 100vw;
@@ -21,14 +22,14 @@ const App = () => {
             key: "44589",
             buttonLabel: "프로젝트",
             render() {
-              return <ProjectInfo />;
+              return <ProjectInfoPage />;
             },
           },
           {
             key: "63119",
             buttonLabel: "자기소개",
             render() {
-              return <div>자기소개</div>;
+              return <AboutMePage />;
             },
           },
           {
