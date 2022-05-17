@@ -23,7 +23,7 @@ const Paragraph = styled.div`
   text-align: center;
 `;
 
-const ProjectInfo = () => {
+const ProjectInfoPage = () => {
   return (
     <Container>
       <Image src={CarrotsImage} alt="carrots" />
@@ -53,4 +53,4 @@ const ProjectInfo = () => {
   );
 };
 
-export default ProjectInfo;
+export default ProjectInfoPage;
