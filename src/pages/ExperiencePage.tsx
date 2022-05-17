@@ -13,11 +13,6 @@ const Container = styled.div`
   overflow: scroll;
 `;
 
-const Image = styled.img`
-  width: 50px;
-  margin-bottom: 30px;
-`;
-
 const Paragraph = styled.div`
   padding: 20px;
 `;
