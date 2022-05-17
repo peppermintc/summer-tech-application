@@ -5,6 +5,7 @@ import { useState } from "react";
 import ProjectInfoPage from "./pages/ProjectInfoPage";
 import styled from "styled-components";
 import AboutMePage from "./pages/AboutMePage";
+import MotivePage from "./pages/MotivePage";
 
 const Container = styled.div`
   width: 100vw;
@@ -36,7 +37,7 @@ const App = () => {
             key: "46250",
             buttonLabel: "지원동기",
             render() {
-              return <div>지원동기</div>;
+              return <MotivePage />;
             },
           },
           {
