@@ -19,6 +19,20 @@ const Paragraph = styled.div`
   padding: 20px;
 `;
 
+const Footer = styled.div`
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+`;
+
+const Link = styled.a`
+  text-decoration: none;
+  color: blue;
+  &:visited {
+    color: blue;
+  }
+`;
+
 const AboutMePage = () => {
   return (
     <Container>
@@ -36,6 +50,22 @@ const AboutMePage = () => {
       <Paragraph>
         알아보기 쉬운 코드 작성을 위해 네이밍에 항상 심사숙고하고 있습니다.
       </Paragraph>
+      <Footer>
+        <Link
+          href="https://github.com/peppermintc"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Github
+        </Link>
+        <Link
+          href="https://velog.io/@peppermint"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Velog
+        </Link>
+      </Footer>
     </Container>
   );
 };
