@@ -20,7 +20,6 @@ const Image = styled.img`
 
 const Paragraph = styled.div`
   padding: 20px;
-  text-align: center;
 `;
 
 const ProjectInfoPage = () => {
