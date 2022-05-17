@@ -21,3 +21,7 @@ Navigator 컴포넌트 안에 Screen 컴포넌트를 추가하고 Screen prop으
 문제가 해결되지 않아서 karrotframe 프로젝트에서 `_si`를 검색보았습니다 NavigatorSearchParams.ts 파일에서 SCREEN_INSTANCE_ID를 뜻한다는 것을 알 수 있었습니다.
 
 저는 썸머테크 지원 전에 결과물을 만들고 싶었기에 여기에서 navigator 사용을 시간 상 멈추고 karrotframe의 tabs를 이용해보기로 하였습니다.
+
+## tabs 사용 경험
+
+- react-router 를 대체하여 편하게 사용할 수 있다고 느낌
