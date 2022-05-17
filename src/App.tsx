@@ -6,6 +6,7 @@ import ProjectInfoPage from "./pages/ProjectInfoPage";
 import styled from "styled-components";
 import AboutMePage from "./pages/AboutMePage";
 import MotivePage from "./pages/MotivePage";
+import TechStackPage from "./pages/TechStackPage";
 
 const Container = styled.div`
   width: 100vw;
@@ -44,7 +45,7 @@ const App = () => {
             key: "21882",
             buttonLabel: "기술스택",
             render() {
-              return <div>기술스택</div>;
+              return <TechStackPage />;
             },
           },
           {
