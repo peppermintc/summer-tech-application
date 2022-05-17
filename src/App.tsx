@@ -7,6 +7,7 @@ import styled from "styled-components";
 import AboutMePage from "./pages/AboutMePage";
 import MotivePage from "./pages/MotivePage";
 import TechStackPage from "./pages/TechStackPage";
+import ExperiencePage from "./pages/ExperiencePage";
 
 const Container = styled.div`
   width: 100vw;
@@ -52,7 +53,7 @@ const App = () => {
             key: "64048",
             buttonLabel: "경험",
             render() {
-              return <div>경험</div>;
+              return <ExperiencePage />;
             },
           },
         ]}
