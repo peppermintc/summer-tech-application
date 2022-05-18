@@ -13,16 +13,13 @@ const Container = styled.div`
 const Image = styled.img`
   width: 63px;
   margin-bottom: 30px;
-  @media (max-width: 768px) {
-    margin-top: 130px;
-  }
 `;
 
 const Paragraph = styled.div`
   padding: 20px;
 `;
 
-const ProjectInfoPage = () => {
+const ProjectInfoTab = () => {
   return (
     <Container>
       <Image src={CarrotsImage} alt="carrots" />
@@ -52,4 +49,4 @@ const ProjectInfoPage = () => {
   );
 };
 
-export default ProjectInfoPage;
+export default ProjectInfoTab;

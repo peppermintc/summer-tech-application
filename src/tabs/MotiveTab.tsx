@@ -19,7 +19,7 @@ const Paragraph = styled.div`
   padding: 20px;
 `;
 
-const MotivePage = () => {
+const MotiveTab = () => {
   return (
     <Container>
       <Image src={GrowthIcon} alt="growth" />
@@ -47,4 +47,4 @@ const MotivePage = () => {
   );
 };
 
-export default MotivePage;
+export default MotiveTab;

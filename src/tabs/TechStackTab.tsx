@@ -16,11 +16,13 @@ const Image = styled.img`
 `;
 
 const Paragraph = styled.div`
+  max-width: 700px;
+  text-align: left;
   padding: 20px;
-  line-height: 24px;
+  line-height: 32px;
 `;
 
-const TechStackPage = () => {
+const TechStackTab = () => {
   return (
     <Container>
       <Image src={TechIcon} alt="growth" />
@@ -37,13 +39,10 @@ const TechStackPage = () => {
         <br />- <b>Redux</b>: redux-thunk와 함께 사용 경험이 수차례 있습니다.
         <br />- <b>Next.js</b>: 간단한 페이지 2~3개를 구현해 본 경험이 있습니다.
         <br />- <b>Storybook</b>: UI 테스팅 용도로 개인 프로젝트에 사용해본
-        경험이 한번있고 능숙하지는 않습니다.
-        <br />- <b>테스트코드</b>: Karrotframe 프로젝트에 테스트코드가
-        작성되어있는 것을 보았습니다. 아직 경험은 없고 학습이 필요하지만 금방
-        적응할 자신이 있습니다.
+        경험이 한번 있고 능숙하지는 않습니다.
       </Paragraph>
     </Container>
   );
 };
 
-export default TechStackPage;
+export default TechStackTab;

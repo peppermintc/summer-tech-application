@@ -33,7 +33,7 @@ const Link = styled.a`
   }
 `;
 
-const AboutMePage = () => {
+const AboutMeTab = () => {
   return (
     <Container>
       <Image src={HelloIcon} alt="hello" />
@@ -70,4 +70,4 @@ const AboutMePage = () => {
   );
 };
 
-export default AboutMePage;
+export default AboutMeTab;

@@ -31,7 +31,7 @@ const Link = styled.a`
   }
 `;
 
-const ExperiencePage = () => {
+const ExperienceTab = () => {
   return (
     <Container>
       <h3>경험</h3>
@@ -61,4 +61,4 @@ const ExperiencePage = () => {
   );
 };
 
-export default ExperiencePage;
+export default ExperienceTab;
