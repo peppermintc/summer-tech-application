@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/summer-tech-application/static/css/main.da83dd7d.css",
+    "main.js": "/summer-tech-application/static/js/main.d04c5c7e.js",
+    "static/media/preview4.png": "/summer-tech-application/static/media/preview4.11eeb41b53ad838c7cc6.png",
+    "static/media/preview5.png": "/summer-tech-application/static/media/preview5.4624ed84f873c39c22a0.png",
+    "static/media/preview3.png": "/summer-tech-application/static/media/preview3.49fb2f1409912caadeb3.png",
+    "static/media/preview1.png": "/summer-tech-application/static/media/preview1.3a98b5c214c19f51e89f.png",
+    "static/media/preview2.png": "/summer-tech-application/static/media/preview2.c7bcb92729f91319c53f.png",
+    "static/media/carrots.png": "/summer-tech-application/static/media/carrots.8ab9759fb61d57b78bea.png",
+    "static/media/hello.png": "/summer-tech-application/static/media/hello.e1762b388801a85064a3.png",
+    "static/media/growth.png": "/summer-tech-application/static/media/growth.ace407cf714b635857a2.png",
+    "static/media/resume.png": "/summer-tech-application/static/media/resume.f30211c97deceb2f8f2c.png",
+    "static/media/notion.png": "/summer-tech-application/static/media/notion.7aa264a898951e791ee3.png",
+    "static/media/tech.png": "/summer-tech-application/static/media/tech.04a3a2f0b7324621a8dc.png",
+    "index.html": "/summer-tech-application/index.html",
+    "main.da83dd7d.css.map": "/summer-tech-application/static/css/main.da83dd7d.css.map",
+    "main.d04c5c7e.js.map": "/summer-tech-application/static/js/main.d04c5c7e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da83dd7d.css",
+    "static/js/main.d04c5c7e.js"
+  ]
+}
