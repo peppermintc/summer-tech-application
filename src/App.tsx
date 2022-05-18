@@ -13,7 +13,7 @@ const App = () => {
       }}
     >
       <Screen path="/" component={HomeScreen} />
-      <Screen path="/info" component={ResumeScreen} />
+      <Screen path="/resume" component={ResumeScreen} />
     </Navigator>
   );
 };
