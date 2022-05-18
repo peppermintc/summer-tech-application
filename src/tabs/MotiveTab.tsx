@@ -41,11 +41,12 @@ const MotiveTab = () => {
         웹뷰 컴포넌트 개발에 도움이 될 수 있을 것 같고,
       </Paragraph>
       <Paragraph>
-        어떠한 공용 라이브러리에 기여를 한는 경험은 굉장히 욕심나는 경험인 것
+        어떠한 공용 라이브러리에 기여하는 경험은 굉장히 욕심나는 경험인 것
         같습니다.
       </Paragraph>
       <Paragraph>
-        이번 기회에 <b>Karrotframe</b>을 개선하는데 기여해보고 싶습니다!
+        이번 기회에 <b>Karrotframe</b> 등 당근마켓 프로젝트들에 참여하여
+        개선하는 경험을 해보고 싶습니다!
       </Paragraph>
     </Container>
   );
