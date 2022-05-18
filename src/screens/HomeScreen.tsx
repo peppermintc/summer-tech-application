@@ -3,6 +3,9 @@ import styled from "styled-components";
 import ResumeImage from "../img/resume.png";
 import NotionImage from "../img/notion.png";
 
+const NOTION_URL =
+  "https://fascinated-whippet-646.notion.site/KarrotFrame-Trouble-shooting-0d67a9d394254dbd9d57425b20e4d3c8";
+
 const Container = styled.div`
   height: 100%;
   display: flex;
@@ -34,14 +37,7 @@ const HomeScreen = () => {
   return (
     <Container>
       <ScreenHelmet title="Summer Tech " noCloseButton={true} />
-      <Button
-        onClick={() =>
-          window.open(
-            "https://www.notion.so/KarrotFrame-Trouble-shooting-33df14af66e04af380f4a6bd1ed0904a",
-            "_blank"
-          )
-        }
-      >
+      <Button onClick={() => window.open(NOTION_URL, "_blank")}>
         <Icon src={NotionImage} alt="notion" />
         <Text>Karrotframe Trouble Shooting</Text>
       </Button>
