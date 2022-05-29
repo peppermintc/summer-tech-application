@@ -8,6 +8,7 @@
 1. Karrotframe navigator 프로젝트 코드 파악하기
 1. 프론트엔드 기술 관련 질문 대비하기
 1. Troubleshooting 질문 대비하기
+1. 새로운 이슈 - nextTick
 
 ### 지원자격
 

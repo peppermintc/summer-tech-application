@@ -2,6 +2,7 @@ import { ScreenHelmet, useNavigator } from "@karrotframe/navigator";
 import styled from "styled-components";
 import ResumeImage from "../img/resume.png";
 import NotionImage from "../img/notion.png";
+import { useEffect, useState } from "react";
 
 const NOTION_URL =
   "https://fascinated-whippet-646.notion.site/KarrotFrame-Trouble-shooting-0d67a9d394254dbd9d57425b20e4d3c8";
@@ -34,6 +35,10 @@ const Text = styled.span`
 
 const HomeScreen = () => {
   const { push } = useNavigator();
+  const [test, setTest] = useState("0");
+
+  useEffect(() => console.log(test), [test]);
+
   return (
     <Container>
       <ScreenHelmet title="Summer Tech " noCloseButton={true} />
@@ -44,6 +49,15 @@ const HomeScreen = () => {
       <Button onClick={() => push("/resume")}>
         <Icon src={ResumeImage} alt="resume" />
         <Text>Resume</Text>
+      </Button>
+      <Button
+        onClick={() => {
+          console.log("1");
+          setTest("2");
+          setTimeout(() => console.log("3"), 0);
+        }}
+      >
+        <Text>test</Text>
       </Button>
     </Container>
   );
