@@ -65,3 +65,40 @@
 weaver: 짜는 사람
 contents weaver: 콘텐츠 짜는 사람
 퍼머링크
+
+### 면접 대비 5/30 (월)
+
+#### 오픈소스 관심도 체크
+
+- 오픈소스 프로젝트에 경험이 있으신가요?
+- 좋아하는 오픈소스가 있으신가요?
+- 오픈소스 아이디어가 있으신가요?
+
+#### 기술 Fit 체크
+
+- 사용가능: HTML, CSS, JavaScript, TypeScript, React, Redux
+- ReScript, Flow, Recoil은 아직 다뤄보지 못함
+
+#### 업무 이해도 체크
+
+- NPM 패키지 출판 경험
+- ES Module, CommonJS 등 모듈 시스템에 대한 설명
+- 모바일 또는 반응형 웹 개발 경험 소개
+- 기술 공부 어떻게 하는지
+
+#### 지원서 관련 질문
+
+- Karrotframe 사용 경험
+- 자기소개
+- 지원동기
+- 프로젝트 소개 (자리톡, 메라키플레이스, 씨디에프브로스, NBA Highlight Library, Custom Video Player)
+
+#### Troubleshooting 질문
+
+- 문제 설명
+
+#### 질문
+
+- screen instance id를 url에 노출하는 이유
+- React navigation에서 영감을 받았는지
+- karrotframe/navigator lifecyclehook context 확인 방법ㄴ
