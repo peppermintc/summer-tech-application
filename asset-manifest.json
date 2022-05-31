@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/summer-tech-application/static/css/main.da83dd7d.css",
-    "main.js": "/summer-tech-application/static/js/main.7deb737f.js",
+    "main.js": "/summer-tech-application/static/js/main.e2305545.js",
     "static/media/preview4.png": "/summer-tech-application/static/media/preview4.11eeb41b53ad838c7cc6.png",
     "static/media/preview5.png": "/summer-tech-application/static/media/preview5.4624ed84f873c39c22a0.png",
     "static/media/preview3.png": "/summer-tech-application/static/media/preview3.49fb2f1409912caadeb3.png",
@@ -15,10 +15,10 @@
     "static/media/tech.png": "/summer-tech-application/static/media/tech.04a3a2f0b7324621a8dc.png",
     "index.html": "/summer-tech-application/index.html",
     "main.da83dd7d.css.map": "/summer-tech-application/static/css/main.da83dd7d.css.map",
-    "main.7deb737f.js.map": "/summer-tech-application/static/js/main.7deb737f.js.map"
+    "main.e2305545.js.map": "/summer-tech-application/static/js/main.e2305545.js.map"
   },
   "entrypoints": [
     "static/css/main.da83dd7d.css",
-    "static/js/main.7deb737f.js"
+    "static/js/main.e2305545.js"
   ]
 }
