@@ -23,7 +23,7 @@ const ProjectInfoTab = () => {
   return (
     <Container>
       <Image src={CarrotsImage} alt="carrots" />
-      <h3>프로젝트 소개</h3>
+      <h3>페이지 소개</h3>
       <Paragraph>
         <b>Karrotframe navigator</b>와 <b>Karrotframe tabs</b>를 사용하여
         프로젝트 만들었습니다.

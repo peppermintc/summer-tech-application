@@ -35,9 +35,6 @@ const Text = styled.span`
 
 const HomeScreen = () => {
   const { push } = useNavigator();
-  const [test, setTest] = useState("0");
-
-  useEffect(() => console.log(test), [test]);
 
   return (
     <Container>
@@ -49,15 +46,6 @@ const HomeScreen = () => {
       <Button onClick={() => push("/resume")}>
         <Icon src={ResumeImage} alt="resume" />
         <Text>Resume</Text>
-      </Button>
-      <Button
-        onClick={() => {
-          console.log("1");
-          setTest("2");
-          setTimeout(() => console.log("3"), 0);
-        }}
-      >
-        <Text>test</Text>
       </Button>
     </Container>
   );

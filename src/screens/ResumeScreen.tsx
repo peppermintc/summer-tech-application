@@ -13,7 +13,7 @@ const Container = styled.div`
 `;
 
 const ResumeScreen = () => {
-  const [activeKey, setActiveKey] = useState<string>("44589");
+  const [activeKey, setActiveKey] = useState<string>("63119");
 
   return (
     <Container>
@@ -21,17 +21,17 @@ const ResumeScreen = () => {
       <Tabs
         tabs={[
           {
-            key: "44589",
-            buttonLabel: "프로젝트",
-            render() {
-              return <ProjectInfoTab />;
-            },
-          },
-          {
             key: "63119",
             buttonLabel: "자기소개",
             render() {
               return <AboutMeTab />;
+            },
+          },
+          {
+            key: "44589",
+            buttonLabel: "페이지 소개",
+            render() {
+              return <ProjectInfoTab />;
             },
           },
           {
@@ -50,7 +50,7 @@ const ResumeScreen = () => {
           },
           {
             key: "64048",
-            buttonLabel: "경험",
+            buttonLabel: "프로젝트 경험",
             render() {
               return <ExperienceTab />;
             },
