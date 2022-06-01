@@ -32,14 +32,16 @@ const TechStackTab = () => {
         <br />- <b>SCSS, CSS in JS</b>: SCSS와 styled-components 사용 경험이
         있습니다.
         <br />- <b>JavaScript</b>: ES6+ 문법을 사용할 수 있습니다.
-        <br />- <b>TypeScript</b>: type, interface로 react 컴포넌트 prop
-        state등을 명세할 수 있습니다.
+        <br />- <b>TypeScript</b>: type, interface로 react 컴포넌트 props, state
+        등을 명세하고 함수들을 명세 할 수 있습니다.
         <br />- <b>React</b>: 다양한 UI 컴포넌트를 제작하고 적당한 단위로 구현할
         수 있습니다.
-        <br />- <b>Redux</b>: redux-thunk와 함께 사용 경험이 수차례 있습니다.
+        <br />- <b>Redux</b>: 글로벌 상태관리에 주로 사용하고 있습니다.
+        redux-thunk와 함께 사용 경험이 있습니다.
         <br />- <b>Next.js</b>: 간단한 페이지 2~3개를 구현해 본 경험이 있습니다.
+        공식 문서를 참고하면서 개발을 할 수 있습니다.
         <br />- <b>Storybook</b>: UI 테스팅 용도로 개인 프로젝트에 사용해본
-        경험이 한번 있고 능숙하지는 않습니다.
+        경험이 한번 있고 스토리 작성이 아직 능숙하지는 않습니다.
       </Paragraph>
     </Container>
   );
